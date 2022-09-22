@@ -1,6 +1,8 @@
 # glui
 go list ui
 
+![ezgif-4-7e4e643bc6](https://user-images.githubusercontent.com/2561547/191633768-3a462b1b-e36b-48e0-a486-5525fab4185d.gif)
+
 comes from the need to easily go through package dependencies, provides basic information and the ability to edit them using the default editor.
 
 ## notes:
