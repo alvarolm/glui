@@ -80,6 +80,10 @@ func main() {
 		for i, p := range packageList {
 			table.SetCell(i, 0, tview.NewTableCell(p.impPath).SetReference(p))
 		}
+
+		if len(packageList) > 0 {
+			table.Select(0, 0)
+		}
 	}
 	loadShowList(filterShowList(""))
 
