@@ -16,6 +16,7 @@ var updatePackageView func(jp *jsonPackage)
 func composePackageView(app *tview.Application, pages *tview.Pages) tview.Primitive {
 	textView := tview.NewTextView().
 		SetDynamicColors(true)
+	textView.SetBackgroundColor(0)
 	textView.SetBorder(true)
 
 	table := tview.NewTable().

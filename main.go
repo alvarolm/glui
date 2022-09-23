@@ -82,6 +82,7 @@ func main() {
 		}
 
 		if len(packageList) > 0 {
+			table.ScrollToBeginning()
 			table.Select(0, 0)
 		}
 	}
